@@ -14,7 +14,13 @@
         document.write("¿Es apto para conducir? ",conduccion, "<br>");
         let siconduccion = mayoredad || licencia;
         console.log("¿Es apto para conducir, cumple con algun requisito? ",siconduccion);
-        document.write("¿Es apto para conducir, cumple con algun requisito ",siconduccion, "<br>");
+        documnt.write("¿Es apto para conducir, cumple con algun requisito? ",siconduccion, "<br>");
+        let n = "Zhinneth";
+        let apellido = "Angulo";
+        let saludo = "Hola, ya puedes ser un conductor " + n + " " + apellido + "!";
+        let saludoConTemplate = `Hola ya puedes ser un conductor, ${n} ${apellido}!`;
+        document.write(saludo,"<br>");
+        document.write(saludoConTemplate);
     </script>
 </body>
 </html>
